@@ -136,15 +136,6 @@ int main()
                     CreateProcess(TEXT("C:\\Windows\\System32\\notepad.exe"), NULL, NULL, NULL, FALSE, NULL, NULL, NULL, &startInfo, &processInfo);
                 }
 
-                else if(command =="open my leetcode profile")
-                {
-                    cout<<"opening your leetcode profile"<<endl;
-                    string phrase = "opening Akshay's leetcode profile";
-                    string command = "espeak \"" + phrase + "\"";
-                    const char *charCommand = command.c_str();
-                    system(charCommand);
-                    system("start https://leetcode.com/akshay_AR_2002/");
-                }
 
                 else if(command =="open my linkedIn profile")
                 {
